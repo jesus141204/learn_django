@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user_app.',
+    'user_app',
 ]
 
 MIDDLEWARE = [
@@ -124,4 +124,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #Configuracion de modelo usuario personalizado
-#AUTH_USER_MODEL="user_app.CustomUser"
+AUTH_USER_MODEL="user_app.CustomUser"
