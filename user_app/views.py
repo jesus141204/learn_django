@@ -8,7 +8,7 @@ def login(request):
         usuario=get_user_model()
         #Persona.objects.get_or_create(cedula=31456,primer_nombre="Jesus",primer_apellido="Marin")
         persona=Persona.objects.get(id_persona=1)
-        #usuario.objects.create_user(username="ale14",id_persona=persona,password="141204.j")
+        #usuario.objects.create_superuser(username="ale14",id_persona=persona,password="141204.j")
         #Mostrando datos del usuario desde su modelo
         usuario=usuario.objects.get(id_persona=1)
         print("DESDE EL HIJO ACCEDIENDO A DATOS DEL PADRE")
