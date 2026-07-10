@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'base',
     'user_app',
     'comuna_app',
+    'comunidad_app',
 ]
 
 MIDDLEWARE = [
