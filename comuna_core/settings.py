@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'user_app',
     'comuna_app',
     'comunidad_app',
+    'vocero_app',
+    'contactos_app',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

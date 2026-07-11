@@ -1,7 +1,7 @@
 from base.models import ModeloBase
 from django.db import models
 
-class comuna(ModeloBase):
+class Comuna(ModeloBase):
     id_comuna=models.AutoField(primary_key=True)
     codigo_comuna=models.CharField(max_length=50,null=False)
     nombre_comuna=models.CharField(max_length=100,null=False)

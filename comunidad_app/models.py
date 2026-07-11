@@ -10,7 +10,7 @@ class Comunidad(ModeloBase):
     registro_electoral=models.IntegerField(null=False,blank=False)
     codigo_parroquia=models.CharField(max_length=50,null=False,blank=False)
     codigo_comuna=models.ForeignKey(
-    "comuna_app.comuna",
+    "comuna_app.Comuna",
     on_delete=models.CASCADE,
     related_name="comunidad",
     null=True,
