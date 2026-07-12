@@ -27,7 +27,7 @@ class AgendaConcretaAccion(ModeloBase):
     )
     
     id_comunidad=models.ForeignKey(
-    "comuna_app.Comunidad",
+    "comunidad_app.Comunidad",
     on_delete=models.CASCADE,
     db_column="id_comunidad",
     )
@@ -93,3 +93,6 @@ class ContactoNudo(models.Model):
     blank=False,
     db_column="id_contacto"
     )
+    
+    class Meta:
+        db_table="contacto_nudo"

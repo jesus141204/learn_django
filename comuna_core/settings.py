@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'comunidad_app',
     'vocero_app',
     'contactos_app',
+    'agenda_app',
 ]
 
 
